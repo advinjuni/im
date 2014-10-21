@@ -63,6 +63,10 @@
 		C99743D719F62FD30074F997 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C99743B019F62FD30074F997 /* DDXMLNode.m */; };
 		C99743D819F62FD30074F997 /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = C99743B419F62FD30074F997 /* build-libidn.sh */; };
 		C99743D919F62FD30074F997 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C99743B619F62FD30074F997 /* libidn.a */; };
+		C99743DB19F630540074F997 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C99743DA19F630540074F997 /* libxml2.dylib */; };
+		C99743DD19F6305E0074F997 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C99743DC19F6305E0074F997 /* libresolv.dylib */; };
+		C99743DF19F630680074F997 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99743DE19F630680074F997 /* CFNetwork.framework */; };
+		C99743E119F6307C0074F997 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99743E019F6307C0074F997 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +190,10 @@
 		C99743B519F62FD30074F997 /* idn-int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idn-int.h"; sourceTree = "<group>"; };
 		C99743B619F62FD30074F997 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		C99743B719F62FD30074F997 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
+		C99743DA19F630540074F997 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C99743DC19F6305E0074F997 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		C99743DE19F630680074F997 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C99743E019F6307C0074F997 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +201,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99743E119F6307C0074F997 /* Security.framework in Frameworks */,
+				C99743DF19F630680074F997 /* CFNetwork.framework in Frameworks */,
+				C99743DD19F6305E0074F997 /* libresolv.dylib in Frameworks */,
+				C99743DB19F630540074F997 /* libxml2.dylib in Frameworks */,
 				C997430C19F62EFA0074F997 /* CoreGraphics.framework in Frameworks */,
 				C99743D919F62FD30074F997 /* libidn.a in Frameworks */,
 				C997430E19F62EFA0074F997 /* UIKit.framework in Frameworks */,
@@ -236,6 +248,10 @@
 		C997430819F62EFA0074F997 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C99743E019F6307C0074F997 /* Security.framework */,
+				C99743DE19F630680074F997 /* CFNetwork.framework */,
+				C99743DC19F6305E0074F997 /* libresolv.dylib */,
+				C99743DA19F630540074F997 /* libxml2.dylib */,
 				C997430919F62EFA0074F997 /* Foundation.framework */,
 				C997430B19F62EFA0074F997 /* CoreGraphics.framework */,
 				C997430D19F62EFA0074F997 /* UIKit.framework */,
@@ -821,6 +837,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMJabber/IMJabber-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "IMJabber/IMJabber-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -838,6 +859,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IMJabber/IMJabber-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "IMJabber/IMJabber-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
