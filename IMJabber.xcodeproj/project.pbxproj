@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C997430A19F62EFA0074F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C997430919F62EFA0074F997 /* Foundation.framework */; };
+		C997430C19F62EFA0074F997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C997430B19F62EFA0074F997 /* CoreGraphics.framework */; };
+		C997430E19F62EFA0074F997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C997430D19F62EFA0074F997 /* UIKit.framework */; };
+		C997431419F62EFA0074F997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C997431219F62EFA0074F997 /* InfoPlist.strings */; };
+		C997431619F62EFA0074F997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C997431519F62EFA0074F997 /* main.m */; };
+		C997431A19F62EFA0074F997 /* IMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C997431919F62EFA0074F997 /* IMAppDelegate.m */; };
+		C997431D19F62EFA0074F997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C997431B19F62EFA0074F997 /* Main.storyboard */; };
+		C997432019F62EFA0074F997 /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C997431F19F62EFA0074F997 /* IMViewController.m */; };
+		C997432219F62EFA0074F997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C997432119F62EFA0074F997 /* Images.xcassets */; };
+		C997432919F62EFA0074F997 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C997432819F62EFA0074F997 /* XCTest.framework */; };
+		C997432A19F62EFA0074F997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C997430919F62EFA0074F997 /* Foundation.framework */; };
+		C997432B19F62EFA0074F997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C997430D19F62EFA0074F997 /* UIKit.framework */; };
+		C997433319F62EFA0074F997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C997433119F62EFA0074F997 /* InfoPlist.strings */; };
+		C997433519F62EFA0074F997 /* IMJabberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C997433419F62EFA0074F997 /* IMJabberTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C997432C19F62EFA0074F997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99742FE19F62EF90074F997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C997430519F62EFA0074F997;
+			remoteInfo = IMJabber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C997430619F62EFA0074F997 /* IMJabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMJabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C997430919F62EFA0074F997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C997430B19F62EFA0074F997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C997430D19F62EFA0074F997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C997431119F62EFA0074F997 /* IMJabber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMJabber-Info.plist"; sourceTree = "<group>"; };
+		C997431319F62EFA0074F997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C997431519F62EFA0074F997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C997431719F62EFA0074F997 /* IMJabber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMJabber-Prefix.pch"; sourceTree = "<group>"; };
+		C997431819F62EFA0074F997 /* IMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAppDelegate.h; sourceTree = "<group>"; };
+		C997431919F62EFA0074F997 /* IMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAppDelegate.m; sourceTree = "<group>"; };
+		C997431C19F62EFA0074F997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C997431E19F62EFA0074F997 /* IMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
+		C997431F19F62EFA0074F997 /* IMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
+		C997432119F62EFA0074F997 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C997432719F62EFA0074F997 /* IMJabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMJabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C997432819F62EFA0074F997 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C997433019F62EFA0074F997 /* IMJabberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMJabberTests-Info.plist"; sourceTree = "<group>"; };
+		C997433219F62EFA0074F997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C997433419F62EFA0074F997 /* IMJabberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMJabberTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C997430319F62EFA0074F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C997430C19F62EFA0074F997 /* CoreGraphics.framework in Frameworks */,
+				C997430E19F62EFA0074F997 /* UIKit.framework in Frameworks */,
+				C997430A19F62EFA0074F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C997432419F62EFA0074F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C997432919F62EFA0074F997 /* XCTest.framework in Frameworks */,
+				C997432B19F62EFA0074F997 /* UIKit.framework in Frameworks */,
+				C997432A19F62EFA0074F997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99742FD19F62EF90074F997 = {
+			isa = PBXGroup;
+			children = (
+				C997430F19F62EFA0074F997 /* IMJabber */,
+				C997432E19F62EFA0074F997 /* IMJabberTests */,
+				C997430819F62EFA0074F997 /* Frameworks */,
+				C997430719F62EFA0074F997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C997430719F62EFA0074F997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C997430619F62EFA0074F997 /* IMJabber.app */,
+				C997432719F62EFA0074F997 /* IMJabberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C997430819F62EFA0074F997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C997430919F62EFA0074F997 /* Foundation.framework */,
+				C997430B19F62EFA0074F997 /* CoreGraphics.framework */,
+				C997430D19F62EFA0074F997 /* UIKit.framework */,
+				C997432819F62EFA0074F997 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C997430F19F62EFA0074F997 /* IMJabber */ = {
+			isa = PBXGroup;
+			children = (
+				C997431819F62EFA0074F997 /* IMAppDelegate.h */,
+				C997431919F62EFA0074F997 /* IMAppDelegate.m */,
+				C997431B19F62EFA0074F997 /* Main.storyboard */,
+				C997431E19F62EFA0074F997 /* IMViewController.h */,
+				C997431F19F62EFA0074F997 /* IMViewController.m */,
+				C997432119F62EFA0074F997 /* Images.xcassets */,
+				C997431019F62EFA0074F997 /* Supporting Files */,
+			);
+			path = IMJabber;
+			sourceTree = "<group>";
+		};
+		C997431019F62EFA0074F997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C997431119F62EFA0074F997 /* IMJabber-Info.plist */,
+				C997431219F62EFA0074F997 /* InfoPlist.strings */,
+				C997431519F62EFA0074F997 /* main.m */,
+				C997431719F62EFA0074F997 /* IMJabber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C997432E19F62EFA0074F997 /* IMJabberTests */ = {
+			isa = PBXGroup;
+			children = (
+				C997433419F62EFA0074F997 /* IMJabberTests.m */,
+				C997432F19F62EFA0074F997 /* Supporting Files */,
+			);
+			path = IMJabberTests;
+			sourceTree = "<group>";
+		};
+		C997432F19F62EFA0074F997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C997433019F62EFA0074F997 /* IMJabberTests-Info.plist */,
+				C997433119F62EFA0074F997 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C997430519F62EFA0074F997 /* IMJabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C997433819F62EFA0074F997 /* Build configuration list for PBXNativeTarget "IMJabber" */;
+			buildPhases = (
+				C997430219F62EFA0074F997 /* Sources */,
+				C997430319F62EFA0074F997 /* Frameworks */,
+				C997430419F62EFA0074F997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMJabber;
+			productName = IMJabber;
+			productReference = C997430619F62EFA0074F997 /* IMJabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C997432619F62EFA0074F997 /* IMJabberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C997433B19F62EFA0074F997 /* Build configuration list for PBXNativeTarget "IMJabberTests" */;
+			buildPhases = (
+				C997432319F62EFA0074F997 /* Sources */,
+				C997432419F62EFA0074F997 /* Frameworks */,
+				C997432519F62EFA0074F997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C997432D19F62EFA0074F997 /* PBXTargetDependency */,
+			);
+			name = IMJabberTests;
+			productName = IMJabberTests;
+			productReference = C997432719F62EFA0074F997 /* IMJabberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99742FE19F62EF90074F997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Advin;
+				TargetAttributes = {
+					C997432619F62EFA0074F997 = {
+						TestTargetID = C997430519F62EFA0074F997;
+					};
+				};
+			};
+			buildConfigurationList = C997430119F62EF90074F997 /* Build configuration list for PBXProject "IMJabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99742FD19F62EF90074F997;
+			productRefGroup = C997430719F62EFA0074F997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C997430519F62EFA0074F997 /* IMJabber */,
+				C997432619F62EFA0074F997 /* IMJabberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C997430419F62EFA0074F997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C997432219F62EFA0074F997 /* Images.xcassets in Resources */,
+				C997431419F62EFA0074F997 /* InfoPlist.strings in Resources */,
+				C997431D19F62EFA0074F997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C997432519F62EFA0074F997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C997433319F62EFA0074F997 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C997430219F62EFA0074F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C997431A19F62EFA0074F997 /* IMAppDelegate.m in Sources */,
+				C997431619F62EFA0074F997 /* main.m in Sources */,
+				C997432019F62EFA0074F997 /* IMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C997432319F62EFA0074F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C997433519F62EFA0074F997 /* IMJabberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C997432D19F62EFA0074F997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C997430519F62EFA0074F997 /* IMJabber */;
+			targetProxy = C997432C19F62EFA0074F997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C997431219F62EFA0074F997 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C997431319F62EFA0074F997 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C997431B19F62EFA0074F997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C997431C19F62EFA0074F997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C997433119F62EFA0074F997 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C997433219F62EFA0074F997 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C997433619F62EFA0074F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C997433719F62EFA0074F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C997433919F62EFA0074F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMJabber/IMJabber-Prefix.pch";
+				INFOPLIST_FILE = "IMJabber/IMJabber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C997433A19F62EFA0074F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMJabber/IMJabber-Prefix.pch";
+				INFOPLIST_FILE = "IMJabber/IMJabber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C997433C19F62EFA0074F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IMJabber.app/IMJabber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMJabber/IMJabber-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IMJabberTests/IMJabberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C997433D19F62EFA0074F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IMJabber.app/IMJabber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMJabber/IMJabber-Prefix.pch";
+				INFOPLIST_FILE = "IMJabberTests/IMJabberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C997430119F62EF90074F997 /* Build configuration list for PBXProject "IMJabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C997433619F62EFA0074F997 /* Debug */,
+				C997433719F62EFA0074F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C997433819F62EFA0074F997 /* Build configuration list for PBXNativeTarget "IMJabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C997433919F62EFA0074F997 /* Debug */,
+				C997433A19F62EFA0074F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C997433B19F62EFA0074F997 /* Build configuration list for PBXNativeTarget "IMJabberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C997433C19F62EFA0074F997 /* Debug */,
+				C997433D19F62EFA0074F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99742FE19F62EF90074F997 /* Project object */;
+}
