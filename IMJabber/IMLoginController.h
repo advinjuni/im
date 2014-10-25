@@ -1,5 +1,5 @@
 //
-//  IMViewController.h
+//  IMLoginController.h
 //  IMJabber
 //
 //  Created by wangjian on 10/21/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IMViewController : UIViewController
+@interface IMLoginController : UITableViewController <UITextFieldDelegate>
+
 
 @end
